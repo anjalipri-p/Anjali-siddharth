@@ -1,9 +1,0 @@
-.pull-area { position:relative; width:72px; height:145px; margin:6px auto 0; }
-#pull-thread { --pull:0px; position:absolute; inset:0 auto auto 0; width:70px; height:calc(115px + var(--pull)); border:0; padding:0; background:none; touch-action:none; user-select:none; -webkit-user-select:none; cursor:grab; transition:height .2s ease; }
-#pull-thread.dragging { cursor:grabbing; transition:none; }
-.cord { position:absolute; top:0; bottom:30px; left:33px; width:3px; background:repeating-linear-gradient(35deg,#926124 0 3px,#e9cc89 3px 6px); box-shadow:0 0 8px #e8c87966; }
-.tassel { position:absolute; bottom:0; left:13px; display:grid; place-items:center; width:44px; height:44px; border:1px solid #e7c78c; border-radius:50%; color:#482437; font-size:27px; background:linear-gradient(120deg,#a77439,#e2c789,#a47137); box-shadow:0 4px 16px #0007; }
-.pull-hint { margin:7px 0 3px; font-size:17px; font-style:italic; }
-.tap-open { border:0; border-bottom:1px solid #c6a66b99; padding:6px 0; color:var(--gold); background:none; font:17px/1.7 Arial,sans-serif; }
-.tap-open:hover { color:#f7deaa; }
-@media(max-width:700px) { .pull-area { margin-top:0; } .pull-hint { font-size:16px; } }
